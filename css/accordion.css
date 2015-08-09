@@ -1,0 +1,32 @@
+body {
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bolder;
+}
+.accord-header {
+    padding: 5px 10px;
+    background: red;
+    color: white;
+    width: auto;
+    cursor: pointer;
+    box-shadow: 0 0 5px #333;
+}
+.accord-body {
+    max-height: 600px;
+    background: green;
+    color: white;
+    width: 100%;
+    -moz-transition: max-height 1s;
+    -ms-transition: max-height 1s;
+    -o-transition: max-height 1s;
+    -webkit-transition: max-height 1s;
+    transition: max-height 1s;
+}
+.accord-content {
+    padding: 5px 10px;
+}
+.toggle-body {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .5s;
+}
